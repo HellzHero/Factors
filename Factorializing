@@ -1,0 +1,15 @@
+function factorialize(num)
+  numbers = [];
+  product = num;
+    for (var i = 1; i <= num; i++) {
+      numbers.push(i);
+    } for (var j = (num-1); j > 0; j--) {
+        product *= [j];
+     } if (num === 0) {
+       return 1;
+     }
+  
+   return product;
+}
+
+factorialize(10);
